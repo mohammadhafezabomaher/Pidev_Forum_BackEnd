@@ -44,5 +44,5 @@ public class ContactController {
         contactService.deleteContact(id);
         return ResponseEntity.noContent().build();
     }
-    .
+
 }
