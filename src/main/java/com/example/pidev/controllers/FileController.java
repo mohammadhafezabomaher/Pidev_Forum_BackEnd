@@ -26,3 +26,4 @@ public class FileController {
         return ResponseEntity.ok(fileDownloadUri);
     }
 }
+.
