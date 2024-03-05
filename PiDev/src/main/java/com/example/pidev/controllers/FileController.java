@@ -19,7 +19,7 @@ public class FileController {
 
         String fileDownloadUri = ServletUriComponentsBuilder.fromCurrentContextPath()
                 .path("/downloadFile/")
-                .path(fileName)
+                path(fileName)
                 .toUriString();
 
         return ResponseEntity.ok(fileDownloadUri);
